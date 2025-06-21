@@ -107,3 +107,5 @@ def generate_response(user_input):
         {"configurable": {"session_id": get_session_id()}},)
 
     return response['output']
+
+
